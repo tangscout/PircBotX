@@ -10,7 +10,7 @@
             Maven Information
     -->
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.pircbotx</groupId>
+    <groupId>net.scoutlink</groupId>
     <artifactId>pircbotx</artifactId>
     <packaging>jar</packaging>
     <version>2.1.8</version>
@@ -56,6 +56,8 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
         <lombok.version>1.12.2</lombok.version>
     </properties>
 
